@@ -6,11 +6,11 @@
     <parent>
         <groupId>io.spring.platform</groupId>
         <artifactId>platform-bom</artifactId>
-        <version>2.0.1.RELEASE</version>
+        <version>2.0.2.RELEASE</version>
     </parent>
     <groupId>sample.multimodule</groupId>
     <artifactId>sample.multimodule</artifactId>
-    <version>0.0.6-SNAPSHOT</version>
+    <version>0.0.7-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Parent - Pom Aggregator</name>
     <description>This pom is a maven aggregator that contains all application modules. Also, include all
@@ -37,10 +37,10 @@
 		
 </scm>
 <distributionManagement>
- <snapshotRepository>
+  <repository>
     <id>nexus</id>
-    <url>http://3.20.230.236:8081/nexus/content/repositories/snapshots</url>
-  </snapshotRepository>
+    <url>http://3.20.230.236:8081/nexus/content/repositories/releases</url>
+  </repository>
 </distributionManagement>
     <dependencies>
 
