@@ -37,10 +37,10 @@
 		
 </scm>
 <distributionManagement>
-  <repository>
+ <snapshotRepository>
     <id>nexus</id>
-    <url>http://3.20.230.236:8081/nexus/content/repositories/releases</url>
-  </repository>
+    <url>http://3.20.230.236:8081/nexus/content/repositories/snapshots</url>
+  </snapshotRepository>
 </distributionManagement>
     <dependencies>
 
